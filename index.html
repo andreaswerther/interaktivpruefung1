@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Physik-Prüfung – Leicht</title>
+  <style>
+    body { font-family: sans-serif; margin: 30px; }
+    textarea { width: 100%; height: 60px; margin-bottom: 10px; }
+    button { margin: 5px; }
+    .section { border: 1px solid #aaa; padding: 15px; margin-bottom: 25px; border-radius: 8px; }
+    .section h3 { margin-top: 0; }
+  </style>
+  <script>
+
+    function showHelp1() {
+      alert("Spannung: elektrische Energie pro Ladung\nFormel: U = E / Q\nEinheit: Volt (V)");
+    }
+    function showSolution1() {
+      alert("Spannung ist Energie pro Ladung. Einheit: Volt (V).");
+    }
+
+    function showHelp2() {
+      alert("Q = I · t");
+    }
+    function showSolution2() {
+      alert("Q = 2 A · 30 s = 60 C");
+    }
+
+    function showHelp3() {
+      alert("Leistung: umgesetzte Energie pro Zeit\nP = U · I\nEinheit: Watt (W)");
+    }
+    function showSolution3() {
+      alert("Leistung ist Energie pro Zeit. Einheit: Watt (W).");
+    }
+
+    function showHelp4() {
+      alert("E = U · I · t");
+    }
+    function showSolution4() {
+      alert("E = 10 V · 5 A · 60 s = 3000 J");
+    }
+
+    function showHelp5() {
+      alert("I = Q / t\nEinheit: Ampere (A)");
+    }
+    function showSolution5() {
+      alert("Formel: I = Q / t\nEinheit: Ampere (A)");
+    }
+</script>
+</head>
+<body>
+<h1>Physik-Prüfung – Leicht</h1>
+
+  <div class="section">
+    <h3>Aufgabe 1</h3>
+    <p>Was ist Spannung? Wie lautet die Einheit?</p>
+    <label>Gegeben:</label><br><textarea></textarea><br>
+    <label>Gefragt:</label><br><textarea></textarea><br>
+    <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+    <label>Antwort:</label><br><textarea></textarea><br>
+    <button onclick="showHelp1()">Hilfe anzeigen</button>
+    <button onclick="showSolution1()">Lösung prüfen</button>
+  </div>
+
+  <div class="section">
+    <h3>Aufgabe 2</h3>
+    <p>Ein Strom von 2 A fließt 30 Sekunden. Berechne die transportierte Ladung.</p>
+    <label>Gegeben:</label><br><textarea></textarea><br>
+    <label>Gefragt:</label><br><textarea></textarea><br>
+    <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+    <label>Antwort:</label><br><textarea></textarea><br>
+    <button onclick="showHelp2()">Hilfe anzeigen</button>
+    <button onclick="showSolution2()">Lösung prüfen</button>
+  </div>
+
+  <div class="section">
+    <h3>Aufgabe 3</h3>
+    <p>Was ist elektrische Leistung? Gib die Einheit an.</p>
+    <label>Gegeben:</label><br><textarea></textarea><br>
+    <label>Gefragt:</label><br><textarea></textarea><br>
+    <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+    <label>Antwort:</label><br><textarea></textarea><br>
+    <button onclick="showHelp3()">Hilfe anzeigen</button>
+    <button onclick="showSolution3()">Lösung prüfen</button>
+  </div>
+
+  <div class="section">
+    <h3>Aufgabe 4</h3>
+    <p>Ein Gerät läuft 60 s bei 5 A und 10 V. Berechne die Energie.</p>
+    <label>Gegeben:</label><br><textarea></textarea><br>
+    <label>Gefragt:</label><br><textarea></textarea><br>
+    <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+    <label>Antwort:</label><br><textarea></textarea><br>
+    <button onclick="showHelp4()">Hilfe anzeigen</button>
+    <button onclick="showSolution4()">Lösung prüfen</button>
+  </div>
+
+  <div class="section">
+    <h3>Aufgabe 5</h3>
+    <p>Gib die Formel für die Stromstärke an und nenne ihre Einheit.</p>
+    <label>Gegeben:</label><br><textarea></textarea><br>
+    <label>Gefragt:</label><br><textarea></textarea><br>
+    <label>Benötigte Formel(n):</label><br><textarea></textarea><br>
+    <label>Antwort:</label><br><textarea></textarea><br>
+    <button onclick="showHelp5()">Hilfe anzeigen</button>
+    <button onclick="showSolution5()">Lösung prüfen</button>
+  </div>
+</body>
+</html>
